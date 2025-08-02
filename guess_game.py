@@ -43,7 +43,7 @@ def play_again():
 
 # GUI Setup
 root = tk.Tk()
-root.title("🎲 Number Guessing Game")
+root.title(" Number Guessing Game")
 root.geometry("380x280")
 root.resizable(False, False)
 
@@ -64,3 +64,4 @@ btn_play_again.pack(pady=5)
 
 # Start the GUI
 root.mainloop()
+
